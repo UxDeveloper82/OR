@@ -1,0 +1,17 @@
+<table class="table table-hover">
+    <thead>
+          <th>Brand Name</th>
+          <th>Part Number</th>
+          <th>Stock</th>
+          <th></th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let inv of list">
+            <td>{{inv.brandName}}</td>
+            <td>{{inv.partNumber}}</td>
+            <td>{{inv.stock}}</td>
+        </tr>
+
+    </tbody>
+</table>
+
