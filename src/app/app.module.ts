@@ -44,7 +44,8 @@ import { ProductService } from './_services/product.service';
     NavComponent,
     ControlPanelComponent,
     LoginComponent,
-    ProductFormComponent
+    ProductFormComponent,
+    AdminProductsComponent
 
   ],
   imports: [

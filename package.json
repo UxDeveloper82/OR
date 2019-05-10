@@ -2,6 +2,7 @@
   "name": "or",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -9,6 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "homepage": "https://UxDeveloper82.github.io/OR/",
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
